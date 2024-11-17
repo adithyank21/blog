@@ -43,6 +43,10 @@ function App() {
           </Typography>
           <Button color="inherit" component={Link} to="/">Home</Button>
           <Button color="inherit" component={Link} to="/blog"> View Blogs</Button>
+          <Button color="inherit" component={Link} to="/login"> Login</Button>
+          <Button color="inherit" component={Link} to="/register"> Register</Button>
+
+
           {/* <Button color="inherit" component={Link} to="/createblog">Create Blog</Button> */}
           {/* <Button color="inherit" component={Link} to="/register">Register</Button>
           <Button color="inherit" component={Link} to="/login">Login</Button> */}
@@ -63,9 +67,7 @@ function App() {
         
       </Container>
     </div>
-    <div>
-      <BlogCard/>
-    </div>
+   
     </>
   );
 }
