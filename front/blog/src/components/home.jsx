@@ -30,12 +30,12 @@ function Home() {
         boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)',
       }}
     >
-      <Typography variant="h3" gutterBottom sx={{ color: '#4CAF50' }}>
-        Welcome to the Blog Website
+      <Typography variant="h3" gutterBottom sx={{ color: "blue" }}>
+        Welcome 
       </Typography>
-      <Typography variant="h6" sx={{ mb: 4, color: '#555' }}>
+      {/* <Typography variant="h6" sx={{ mb: 4, color: '#555' }}>
         Share your thoughts, connect with others, and explore amazing blogs!
-      </Typography>
+      </Typography> */}
       <Button
         variant="contained"
         color="primary"

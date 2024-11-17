@@ -33,9 +33,10 @@ import BlogCard from './components/blogcard';
 
 function App() {
   return (
+    <>
     <div>
       {/* Navigation Bar */}
-      <AppBar position="static" style={{ backgroundColor: '#4CAF50' }}>
+      <AppBar position="static" style={{ backgroundColor: 'black' }}>
         <Toolbar>
           <Typography variant="h6" style={{ flexGrow: 1 }}>
             My Blogs
@@ -45,9 +46,11 @@ function App() {
           {/* <Button color="inherit" component={Link} to="/createblog">Create Blog</Button> */}
           {/* <Button color="inherit" component={Link} to="/register">Register</Button>
           <Button color="inherit" component={Link} to="/login">Login</Button> */}
+         
         </Toolbar>
+        
       </AppBar>
-
+      
       {/* Main Content */}
       <Container style={{ marginTop: '20px' }}>
         <Routes>
@@ -57,8 +60,13 @@ function App() {
           <Route path="/createblog" element={<CreateBlog />} />
           <Route path="/blog" element={<BlogCard />} />
         </Routes>
+        
       </Container>
     </div>
+    <div>
+      <BlogCard/>
+    </div>
+    </>
   );
 }
 
